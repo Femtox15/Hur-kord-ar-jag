@@ -2,13 +2,14 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [income, setIncome] = useState(0);
+const [income, setIncome] = useState("");
 
-  const [housing, setHousing] = useState(0);
-  const [transport, setTransport] = useState(0);
-  const [subscriptions, setSubscriptions] = useState(0);
-  const [food, setFood] = useState(0);
-  const [other, setOther] = useState(0);
+const [housing, setHousing] = useState("");
+const [transport, setTransport] = useState("");
+const [subscriptions, setSubscriptions] = useState("");
+const [food, setFood] = useState("");
+const [other, setOther] = useState("");
+
 
   const totalExpenses =
     housing + transport + subscriptions + food + other;
