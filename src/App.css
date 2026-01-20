@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(
+    circle at top,
+    #1a1d29 0%,
+    #0f1115 60%
+  );
+  color: #f1f1f1;
+}
+
+
+
+main {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(21, 24, 33, 0.9);
+  border-radius: 16px;
+  padding: 3rem 2rem 3.5rem;
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  color: #b5b5b5;
+  margin-top: 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+}
+
+input {
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  background: #151821;
+  color: #fff;
+  border: 1px solid #2a2f3a;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4c6fff;
+}
+
+section {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  background: #151821;
+  border-radius: 8px;
+}
+
+section p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+section strong {
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 2.5rem;
+  font-size: 0.75rem;
+  color: #8a8a8a;
+  text-align: center;
+}
+.good {
+  color: #4caf50; /* grön */
+}
+
+.bad {
+  color: #f44336; /* röd */
+}
+
+.neutral {
+  color: #b5b5b5; /* grå */
+}
+.card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(21, 24, 33, 0.9);
+  border-radius: 12px;
+}
+
+.card.result {
+  margin-top: 2rem;
+}
